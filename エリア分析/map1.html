@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_676a54a35a4943faaf06e39d23e45ee0 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_676a54a35a4943faaf06e39d23e45ee0" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var bounds = null;
+            
+
+            var map_676a54a35a4943faaf06e39d23e45ee0 = L.map(
+                                  'map_676a54a35a4943faaf06e39d23e45ee0',
+                                  {center: [35.681382,139.76608399999998],
+                                  zoom: 12,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_796bed2572b04891a05c5f4e339807dc = L.tileLayer(
+                'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                {
+  "attribution": null,
+  "detectRetina": false,
+  "maxZoom": 18,
+  "minZoom": 1,
+  "noWrap": false,
+  "subdomains": "abc"
+}
+                ).addTo(map_676a54a35a4943faaf06e39d23e45ee0);
+        
+    
+
+            var marker_de80d5ffd90b4b569018cb54ae5cbe96 = L.marker(
+                [35.69955300000001,139.7747835],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_676a54a35a4943faaf06e39d23e45ee0);
+            
+    
+            var popup_87a651e68e9c4208bd0518cd5aaef873 = L.popup({maxWidth: '300'});
+
+            
+                var html_17358f30bbb34f9db5447214497056a6 = $('<div id="html_17358f30bbb34f9db5447214497056a6" style="width: 100.0%; height: 100.0%;">秋葉原中央改札口店<br>東京都千代田区神田松永町7ヤマリビル1F<br>  15～19歳:321人<br>  20～24歳:687人<br>  25～29歳:1224人<br>  30～34歳:1417人<br>  35～39歳:1285人<br>  40～44歳:1288人<br>  45～49歳:925人<br></div>')[0];
+                popup_87a651e68e9c4208bd0518cd5aaef873.setContent(html_17358f30bbb34f9db5447214497056a6);
+            
+
+            marker_de80d5ffd90b4b569018cb54ae5cbe96.bindPopup(popup_87a651e68e9c4208bd0518cd5aaef873);
+
+            
+        
+    
+
+            var circle_2dcdd6cfa9f04c81bbe7225776ba406e = L.circle(
+                [35.69955300000001,139.7747835],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3186cc",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 500,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_676a54a35a4943faaf06e39d23e45ee0);
+            
+    
+
+            var marker_47f0afc209974c86ab110d80e3a5540c = L.marker(
+                [35.69854500000001,139.77081450000003],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_676a54a35a4943faaf06e39d23e45ee0);
+            
+    
+            var popup_93f0daa4436f44f6be6458f64c7a3de3 = L.popup({maxWidth: '300'});
+
+            
+                var html_6a167ef1f4bc4529a2ba52d83307a2fb = $('<div id="html_6a167ef1f4bc4529a2ba52d83307a2fb" style="width: 100.0%; height: 100.0%;">秋葉原店<br>東京都千代田区外神田1-4-11<br>  15～19歳:185人<br>  20～24歳:306人<br>  25～29歳:476人<br>  30～34歳:603人<br>  35～39歳:585人<br>  40～44歳:568人<br>  45～49歳:475人<br></div>')[0];
+                popup_93f0daa4436f44f6be6458f64c7a3de3.setContent(html_6a167ef1f4bc4529a2ba52d83307a2fb);
+            
+
+            marker_47f0afc209974c86ab110d80e3a5540c.bindPopup(popup_93f0daa4436f44f6be6458f64c7a3de3);
+
+            
+        
+    
+
+            var circle_773b2dc7bd714e599d7d4f7286114057 = L.circle(
+                [35.69854500000001,139.77081450000003],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3186cc",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 500,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_676a54a35a4943faaf06e39d23e45ee0);
+            
+    
+
+            var marker_b39477dabc6c43e4a3c0eaacbb8818e8 = L.marker(
+                [35.690697,139.77236249999999],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_676a54a35a4943faaf06e39d23e45ee0);
+            
+    
+            var popup_c31af2f9befd4b839c846fe31b798797 = L.popup({maxWidth: '300'});
+
+            
+                var html_85555a34cd884c1c80906ff88325a897 = $('<div id="html_85555a34cd884c1c80906ff88325a897" style="width: 100.0%; height: 100.0%;">神田東口店<br>東京都千代田区鍛冶町1-8-1 神田サクラビル1Ｆ<br>  15～19歳:118人<br>  20～24歳:254人<br>  25～29歳:697人<br>  30～34歳:747人<br>  35～39歳:608人<br>  40～44歳:585人<br>  45～49歳:428人<br></div>')[0];
+                popup_c31af2f9befd4b839c846fe31b798797.setContent(html_85555a34cd884c1c80906ff88325a897);
+            
+
+            marker_b39477dabc6c43e4a3c0eaacbb8818e8.bindPopup(popup_c31af2f9befd4b839c846fe31b798797);
+
+            
+        
+    
+
+            var circle_60113bfec41e431d93eedac1003d40c3 = L.circle(
+                [35.690697,139.77236249999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3186cc",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 500,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_676a54a35a4943faaf06e39d23e45ee0);
+            
+    
+
+            var marker_90e211896d0841c48dd06450925bcd5f = L.marker(
+                [35.666262,139.75742250000002],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_676a54a35a4943faaf06e39d23e45ee0);
+            
+    
+            var popup_45a284066f4d439ea4645187e3bac035 = L.popup({maxWidth: '300'});
+
+            
+                var html_e7f733d7c4f74c5ab88d8375474cd5e4 = $('<div id="html_e7f733d7c4f74c5ab88d8375474cd5e4" style="width: 100.0%; height: 100.0%;">新橋店<br>東京都港区新橋2-16-1 ニュ-新橋ビル1Ｆ<br>  15～19歳:101人<br>  20～24歳:227人<br>  25～29歳:552人<br>  30～34歳:529人<br>  35～39歳:402人<br>  40～44歳:436人<br>  45～49歳:361人<br></div>')[0];
+                popup_45a284066f4d439ea4645187e3bac035.setContent(html_e7f733d7c4f74c5ab88d8375474cd5e4);
+            
+
+            marker_90e211896d0841c48dd06450925bcd5f.bindPopup(popup_45a284066f4d439ea4645187e3bac035);
+
+            
+        
+    
+
+            var circle_701c6bdd9174488e85f7d14615d29b4a = L.circle(
+                [35.666262,139.75742250000002],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3186cc",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 500,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_676a54a35a4943faaf06e39d23e45ee0);
+            
+</script>
